@@ -1,0 +1,22 @@
+export default () => {
+  return `
+  <h1 class="main-title">This is my timer=)</h1>
+  <div class="timer" id="timer-1">
+  <div class="field">
+    <span class="value" data-value="days">--</span>
+    <span class="label">Days</span>
+  </div>
+  <div class="field">
+    <span class="value" data-value="hours">--</span>
+    <span class="label">Hours</span>
+  </div>
+  <div class="field">
+    <span class="value" data-value="mins">--</span>
+    <span class="label">Minutes</span>
+  </div>
+  <div class="field">
+    <span class="value" data-value="secs">--</span>
+    <span class="label">Seconds</span>
+  </div>
+</div>`;
+};
