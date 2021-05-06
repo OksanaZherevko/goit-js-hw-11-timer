@@ -1,0 +1,34 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11-timer/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OksanaZherevko/goit-js-hw-11-timer"
+  },
+  "author": "Oksana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OksanaZherevko/goit-js-hw-11-timer/issues"
+  },
+  "homepage": "https://github.com/OksanaZherevko/goit-js-hw-11-timer",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  },
+  "dependencies": {
+    "css": "^3.0.0",
+    "gh-pages": "^3.1.0",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "refs": "^0.9.7",
+    "src": "^1.1.2"
+  }
+}
